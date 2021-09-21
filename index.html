@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danielbook</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<div class="logo">
+				<h2>danielbook</h2>
+			</div><!--logo-->
+
+			<form method="post" class="form-login">
+				<div class="form-element">
+					<label name="email">E-mail ou Telefone*</label>
+					<input type="email" name="email" required>
+				</div><!--form-element-->
+				<div class="form-element">
+					<label name="senha">Senha de acesso*</label>
+					<input type="password" name="senha" required>
+				</div><!--form-element-->
+				<div class="form-element">
+					<input type="submit" name="acao" value="Entrar">
+				</div><!--form-element-->
+			</form><!--form-login-->
+
+			<div class="clear"></div><!--clear-->
+
+		</div><!--center-->
+	</header>
+
+	<section class="main">
+		<div class="center">
+			<div class="img-social">
+				<img src="social.jpg" alt="Rede Social">
+			</div><!--img-social-->
+			<div class="abrir-conta">
+				<h2>Abra sua conta</h2>
+				<h3>É gratuito e sempre será.</h3>
+
+				<form class="criar-conta">
+					<div class="w50">
+						<input type="text" name="nome" placeholder="Nome" required="">
+					</div><!--w50-->
+
+					<div class="w50">
+						<input type="text" name="sobrenome" placeholder="Sobrenome" required="">
+					</div><!--w50-->
+
+					<div class="w100">
+						<input type="email" name="email" placeholder="E-mail" required="">
+					</div><!--w100-->
+
+					<div class="w100">
+						<input type="password" name="senha" placeholder="Senha" required="">
+					</div><!--w100-->
+
+					<div class="w100">
+						<h3>Data de Nascimento</h3>
+						<select name="nascimento-dia" class="nascimento">
+							<option value="1">1</option>
+						</select>
+						<select name="nascimento-mes" class="nascimento">
+							<option value="0">Janeiro</option>
+						</select>
+						<select name="nascimento-ano" class="nascimento">
+							<option value="0">1997</option>
+						</select>
+						<div class="clear"></div>
+					</div><!--w100-->
+
+					<div class="w100">
+						<input type="submit" name="acao" value="Cadastrar!">
+					</div><!--w100-->
+
+					<div class="clear"></div>
+				</form><!--criar-conta-->
+			</div><!--abrir-conta-->
+			<div class="clear"></div>
+		</div><!--center-->
+	</section><!--main-->
+
+</body>
+</html>
